@@ -48,4 +48,4 @@ ead:
       notificationCommandQueue:
         name: ead.notificationcommand.ms.notification
       key:
-      notificationCommandKey: ms.notification
+        notificationCommandKey: ms.notification
