@@ -1,0 +1,21 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: ead-payment-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
+
+logging:
+  level:
+    com.ead: TRACE
+    root: INFO
+    org.springframework.web: DEBUG
+    org.hibernate: INFO
